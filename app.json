@@ -47,7 +47,7 @@
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
             "required": true                              
         },
-        "AUTH_CHANNEL": {CINEMA_CITY_UPDATES
+        "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
             "required": false
         },   
