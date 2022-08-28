@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢', url=f'https://t.me/{SUPPORT_CHAT}')
+                InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/+wUPk52ZjEEk3MmU1')
             ],
             [
-                InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿 ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
+                InlineKeyboardButton('ℹ️ HΞLᎮ ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -42,17 +42,19 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention, message.from_user.username, temp.U_NAME))
     if len(message.command) != 2: 
         buttons = [[
-            InlineKeyboardButton("🚸 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🚸", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton("⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("🍿𝙹𝙾𝙸𝙽 𝙶𝚁𝙾𝚄𝙿🍿", url="https://t.me/MMCINEMACHAKKU")
+            InlineKeyboardButton("💠 GᏒԾUᎮ 💠", url="https://t.me/+wUPk52ZjEEk3MmU1"), 
+            InlineKeyboardButton("💠 CHΛИИΞL 💠", url="https://t.me/CINEMA_CITY_UPDATES")
             ],[      
-            InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data="help"),
-            InlineKeyboardButton("💞 𝙰𝙱𝙾𝚄𝚃 💞", callback_data="about")
+            InlineKeyboardButton("ℹ️ HΞLᎮ ℹ️", callback_data="help"),
+            InlineKeyboardButton("💞 ΛBOUT 💞", callback_data="about")
+            ],[
+            InlineKeyboardButton("💠 SΞΛᏒCH HΞᏒΞ 💠", switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_chat_action("Typing")
-        m=await message.reply_sticker("CAACAgUAAxkBAAIFNGJSlfOErbkSeLt9SnOniU-58UUBAAKaAAPIlGQULGXh4VzvJWoeBA") 
+        m=await message.reply_sticker("CAACAgEAAxkBAAJEemDQhN67WfA0jR_5ftZStaRMR20YAALKAAN-3IBGwOBvi-NZUuMeBA") 
         await asyncio.sleep(1)
         await m.delete()        
         await message.reply_photo(
@@ -87,17 +89,19 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:   
         buttons = [[
-            InlineKeyboardButton("🚸 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🚸", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton("⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("🍿𝙹𝙾𝙸𝙽 𝙶𝚁𝙾𝚄𝙿🍿", url="https://t.me/MMCINEMACHAKKU")
+            InlineKeyboardButton(" GᏒԾUᎮ 💠", url="https://t.me/+wUPk52ZjEEk3MmU1"),
+            InlineKeyboardButton("💠 CHΛИИΞL 💠", url="https://t.me/CINEMA_CITY_UPDATES")
             ],[      
-            InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data="help"),
-            InlineKeyboardButton("💞 𝙰𝙱𝙾𝚄𝚃 💞", callback_data="about")
+            InlineKeyboardButton("ℹ️ HΞLᎮ ℹ️", callback_data="help"),
+            InlineKeyboardButton("💞 ΛBOUT 💞", callback_data="about")
+            ],[
+            InlineKeyboardButton("💠 SΞΛᏒCH HΞᏒΞ 💠", switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)          
         await message.reply_chat_action("Typing")
-        m=await message.reply_sticker("CAACAgUAAxkBAAIFNGJSlfOErbkSeLt9SnOniU-58UUBAAKaAAPIlGQULGXh4VzvJWoeBA") 
+        m=await message.reply_sticker("CAACAgEAAxkBAAJEemDQhN67WfA0jR_5ftZStaRMR20YAALKAAN-3IBGwOBvi-NZUuMeBA")
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
