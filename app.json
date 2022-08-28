@@ -1,7 +1,7 @@
 {
-    "name": "PROFESSOR-BOT",
+    "name": "Andriya-bot",
     "description": "This Bot Will Help You To Store Files In Cloud Storage. You Can Add Files To The Bot By Forward the last file from a public channel to your bot and Press Yes Button.. If The Files Channl Is Private Make the bot admin on the channel and forward the last file to bot. Then Add the bot to you group and send the movie name The Bot Will Give the file in Bot PM..✮✮",
-    "logo": "https://telegra.ph/file/e6d627c43c0a8d6c15bac.jpg",
+    "logo": "https://graph.org/file/d50c02f75b8631b44c5df.jpg",
     "stack": "container",
     "keywords": [
       "telegram",
@@ -17,7 +17,7 @@
       "inline"
     ],
     "website": "https://github.com/MrMKN/PROFESSOR-BOT",
-    "repository": "https://github.com/MrMKN/PROFESSOR-BOT",
+    "repository": "https://github.com/DXFILTER/Andriya-bot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -47,7 +47,7 @@
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
             "required": true                              
         },
-        "AUTH_CHANNEL": {
+        "AUTH_CHANNEL": {CINEMA_CITY_UPDATES
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
             "required": false
         },   
@@ -63,7 +63,7 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
-            "value": "{file_name}\n\n🔘 size - {file_size}\n\n╔═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗\n💥 𝙅𝙊𝙄𝙉 :- @Mr_Movies_Main\n💥 𝙅𝙊𝙄𝙉 :- @mknmovies\n╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝ ",
+            "value": "{file_name}\n\n🔘 size - {file_size}\n\n╔═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗\n💥 𝙅𝙊𝙄𝙉 :- @CINEMA_CITY_UPDATES\n💥 𝙅𝙊𝙄𝙉 :- @Cinema_Club_Post\n╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝ ",
             "required": false
         },
         "DATABASE_URI": {
@@ -82,7 +82,7 @@
         },
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
-            "value": "MKN_BOTZ_DISCUSSION_GROUP",
+            "value": "CINEMA_CITY_UPDATES",
             "required": false
         },
         "IMDB": {
@@ -112,7 +112,7 @@
         },
         "BTN_LOCK_ALERT": {
             "description": "Button Lock text use one person search risult dont use other person 😁 alert text (use  {query} = user mention )",
-            "value": "⚠️ 𝙃𝙚𝙮 {query}! 𝙏𝙝𝙖𝙩'𝙨 𝙉𝙤𝙩 𝙁𝙤𝙧 𝙔𝙤𝙪. 𝙋𝙡𝙚𝙖𝙨𝙚 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙔𝙤𝙪𝙧 𝙊𝙬𝙣",
+            "value": "⚠️ 𝙃𝙚𝙮 {query}! 𝙉𝙤𝙠𝙠𝙞 𝙄𝙧𝙪𝙣𝙣𝙤 𝙄𝙥𝙥𝙤 𝙆𝙞𝙩𝙩𝙪𝙢",
             "required": false 
         },
         "FORCE_SUB_TEXT": {
