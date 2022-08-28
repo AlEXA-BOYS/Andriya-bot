@@ -13,23 +13,24 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴 : {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : <a href=https://t.me/CINEMA_CLUB_ADMIN_ROBOT>Bᴏᴛ ᴏᴡɴᴇʀ </a>
-✯ 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 : <a href=https://t.me/dxfilter>𝒔𝒖𝒏𝒆𝒆𝒔𝒉𝒅𝒆𝒆𝒛𝒖𝒛𝒛𝒂</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 : 𝙼𝙾𝙽𝙶𝙾-𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁 : 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂 : 𝚅1.0.43 [𝙼𝙰𝙹𝙾𝚁]"""
+🤖 ʙᴏᴛ ɴᴀᴍᴇ  : <a href=https://t.me/CINEMA_CLUB_ADMIN_ROBOT>Bᴏᴛ ᴏᴡɴᴇʀ </a>
+📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ
+👨‍💼 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/DQ_1_2_3>ᴅϙ </a>
+👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href=https://t.me/CINEMA_CLUB_ADMIN_ROBOT>ʙᴏᴛ ᴏᴡɴᴇʀ </a>
+💡 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : ᴄʟɪᴄᴋ ʜᴇʀᴇ
+👥  ɢʀᴏᴜᴘ : <a href=https://t.me/+wUPk52ZjEEk3MmU1>ᴄɪɴᴇᴍᴀ ᴄɪᴛʏ ɢʀᴏᴜᴘ </a>
+📢  ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/+yP9ckmsoGF1kNDNl>ᴄɪɴᴇᴍᴀ ᴄɪᴛʏ ᴄʜᴀɴɴᴇʟ </a>
+📝 ʙᴜɪʟᴅ  sᴛᴀᴛᴜs : 𝚅1.0.43 [𝙼𝙰𝙹𝙾𝚁]"""
     SOURCE_TXT = """<b>NOTE:</b>
-- 𝑴𝒚  𝑾𝒐𝒓𝒌𝒊𝒏𝒈 𝑮𝒓𝒐𝒖𝒑  <a href=https://t.me/MMCINEMACHAKKU>Join GROUP</a> cinema club group 
-- 𝑴𝒚  𝑶𝒘𝒏𝒆𝒓 👨‍💼 <a href=https://t.me/dxfilter>𝒔𝒖𝒏𝒆𝒆𝒔𝒉𝒅𝒆𝒆𝒛𝒖𝒛𝒛𝒂</a> 👨‍💼 SUNEESHDEEZUZZA 🔱
-- original source code - <a href=https://github.com/Aadhi000/Ajax-Extra-Features>Ajax-Extra-Features</a> 
+✯ 𝑴𝒚  𝑾𝒐𝒓𝒌𝒊𝒏𝒈 𝑮𝒓𝒐𝒖𝒑  <a href=https://t.me/MMCINEMACHAKKU>Join GROUP</a> cinema club group 
+✯ 𝑴𝒚  𝑶𝒘𝒏𝒆𝒓 👨‍💼 <a href=https://t.me/dxfilter>𝒔𝒖𝒏𝒆𝒆𝒔𝒉𝒅𝒆𝒆𝒛𝒖𝒛𝒛𝒂</a> 👨‍💼 SUNEESHDEEZUZZA 🔱
+✯ original source code - <a href=https://github.com/Aadhi000/Ajax-Extra-Features>Ajax-Extra-Features</a> 
 
-- 🍿𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁🍿 :<a href=https://t.me/+yP9ckmsoGF1kNDNl>cinema club</a>
+✯ 🍿𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁🍿 :<a href=https://t.me/+yP9ckmsoGF1kNDNl>cinema club</a>
 
 <b>DEVS:</b>
-- 𝙳𝚎𝚟 1<a href=https://t.me/CINEMA_CLUB_ADMIN_ROBOT>Bᴏᴛ ᴏᴡɴᴇʀ</a>
-- 𝙳𝚎𝚟 2<a href=https://t.me/dxfilter>𝒔𝒖𝒏𝒆𝒆𝒔𝒉𝒅𝒆𝒆𝒛𝒖𝒛𝒛𝒂</a>"""
+✯ 𝑴𝒚  𝑶𝒘𝒏𝒆𝒓<a href=https://t.me/CINEMA_CLUB_ADMIN_ROBOT>Bᴏᴛ ᴏᴡɴᴇʀ</a>
+✯ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : ᴄʟɪᴄᴋ ʜᴇʀᴇ<a href=https://t.me/+yP9ckmsoGF1kNDNl>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁</a>"""
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
 <b>𝙱𝚈 𝚄𝚂𝙸𝙽𝙶 𝚃𝙷𝙸𝚂 𝙼𝙾𝙳𝚄𝙻𝙴 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚂𝚃𝙾𝚁𝙴 𝙵𝙸𝙻𝙴𝚂 𝙸𝙽 𝙼𝚈 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 𝙰𝙽𝙳 𝙸 𝚆𝙸𝙻𝙻 𝙶𝙸𝚅𝙴 𝚈𝙾𝚄 𝙰 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃 𝙻𝙸𝙽𝙺  𝚃𝙾 𝙰𝙲𝙲𝙴𝚂𝚂 𝚃𝙷𝙴 𝚂𝙰𝚅𝙴𝙳 𝙵𝙸𝙻𝙴𝚂.𝙸𝙵 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙾 𝙰𝙳𝙳 𝙵𝙸𝙻𝙴𝚂 𝙵𝚁𝙾𝙼 𝙰 𝙿𝚄𝙱𝙻𝙸𝙲 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚂𝙴𝙽𝙳 𝚃𝙷𝙴 𝙵𝙸𝙻𝚆 𝙻𝙸𝙽𝙺 𝙾𝙽𝙻𝚈  𝙾𝚁 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙾 𝙰𝙳𝙳 𝙵𝙸𝙻𝙴𝚂 𝙵𝚁𝙾𝙼 𝙰  𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚈𝙾𝚄 𝙼𝚄𝚂𝚃 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽 𝙾𝙽 𝚃𝙷𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚃𝙾 𝙰𝙲𝙲𝙴𝚂𝚂 𝙵𝙸𝙻𝙴𝚂...//</b>
